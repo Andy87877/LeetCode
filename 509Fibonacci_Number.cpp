@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/fibonacci-number/submissions/
+// 3 the best
 // 1
 /*
 https://leetcode.com/submissions/detail/596294477/
@@ -53,3 +54,22 @@ int main() {
     }
 } 
 */
+
+// 3
+/*
+https://leetcode.com/submissions/detail/596430437/
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Fibonacci Number.
+Memory Usage: 5.8 MB, less than 79.51% of C++ online submissions for Fibonacci Number.
+*/
+class Solution {
+public:
+    int fib(int n) {
+        int DP[31];
+        DP[0] = 0;
+        DP[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            DP[i] = DP[i-1] + DP[i-2];
+        }
+        return DP[n];
+    }
+};
