@@ -20,4 +20,3 @@ class Solution {
         }
 };
 // Only one valid answer exists.
-
