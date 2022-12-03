@@ -3,7 +3,7 @@
 Runtime: 19 ms, faster than 71.68% of C++ online submissions for Sort Characters By Frequency.
 Memory Usage: 8.6 MB, less than 40.07% of C++ online submissions for Sort Characters By Frequency.
 */
-// 就先算次數 來後沒了cool 很簡單
+// 就先算次數 然後沒了cool 很簡單
 class Solution {
 public:
     string frequencySort(string s) {
